@@ -16,7 +16,7 @@
 		CE7CE2821C2019330004587F /* WachTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE2811C2019330004587F /* WachTests.m */; };
 		CE7CE28D1C2019330004587F /* WachUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE28C1C2019330004587F /* WachUITests.m */; };
 		CE7CE29B1C201B410004587F /* addbuton2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE29A1C201B410004587F /* addbuton2.png */; };
-		CE7CE29F1C203BC10004587F /* tableadd.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE29E1C203BC10004587F /* tableadd.xib */; };
+		CE7CE2AA1C2057090004587F /* addedtable.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE2A91C2057090004587F /* addedtable.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		CE7CE28C1C2019330004587F /* WachUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WachUITests.m; sourceTree = "<group>"; };
 		CE7CE28E1C2019330004587F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7CE29A1C201B410004587F /* addbuton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addbuton2.png; path = ../../../Downloads/addbuton2.png; sourceTree = "<group>"; };
-		CE7CE29E1C203BC10004587F /* tableadd.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tableadd.xib; sourceTree = "<group>"; };
+		CE7CE2A91C2057090004587F /* addedtable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addedtable.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 				CE7CE2751C2019320004587F /* LaunchScreen.storyboard */,
 				CE7CE2781C2019320004587F /* Info.plist */,
 				CE7CE2671C2019320004587F /* Supporting Files */,
-				CE7CE29E1C203BC10004587F /* tableadd.xib */,
+				CE7CE2A91C2057090004587F /* addedtable.xib */,
 			);
 			path = Wach;
 			sourceTree = "<group>";
@@ -251,9 +251,9 @@
 			files = (
 				CE7CE2771C2019320004587F /* LaunchScreen.storyboard in Resources */,
 				CE7CE2741C2019320004587F /* Assets.xcassets in Resources */,
+				CE7CE2AA1C2057090004587F /* addedtable.xib in Resources */,
 				CE7CE2721C2019320004587F /* Main.storyboard in Resources */,
 				CE7CE29B1C201B410004587F /* addbuton2.png in Resources */,
-				CE7CE29F1C203BC10004587F /* tableadd.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
