@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76B793631C2070BB00EDF542 /* UITableView+alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B793621C2070BB00EDF542 /* UITableView+alarm.m */; };
 		CE7CE2691C2019320004587F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE2681C2019320004587F /* main.m */; };
 		CE7CE26C1C2019320004587F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE26B1C2019320004587F /* AppDelegate.m */; };
 		CE7CE26F1C2019320004587F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE26E1C2019320004587F /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76B793611C2070BB00EDF542 /* UITableView+alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+alarm.h"; sourceTree = "<group>"; };
+		76B793621C2070BB00EDF542 /* UITableView+alarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+alarm.m"; sourceTree = "<group>"; };
 		CE7CE2641C2019320004587F /* Wach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7CE2681C2019320004587F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE7CE26A1C2019320004587F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				CE7CE2781C2019320004587F /* Info.plist */,
 				CE7CE2671C2019320004587F /* Supporting Files */,
 				CE7CE2A91C2057090004587F /* addedtable.xib */,
+				76B793611C2070BB00EDF542 /* UITableView+alarm.h */,
+				76B793621C2070BB00EDF542 /* UITableView+alarm.m */,
 			);
 			path = Wach;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				CE7CE26F1C2019320004587F /* ViewController.m in Sources */,
 				CE7CE26C1C2019320004587F /* AppDelegate.m in Sources */,
 				CE7CE2691C2019320004587F /* main.m in Sources */,
+				76B793631C2070BB00EDF542 /* UITableView+alarm.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +512,7 @@
 				CE7CE2931C2019330004587F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE7CE2941C2019330004587F /* Build configuration list for PBXNativeTarget "WachTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +521,7 @@
 				CE7CE2961C2019330004587F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE7CE2971C2019330004587F /* Build configuration list for PBXNativeTarget "WachUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +530,7 @@
 				CE7CE2991C2019330004587F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

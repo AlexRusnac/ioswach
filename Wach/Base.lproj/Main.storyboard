@@ -62,7 +62,7 @@
         <scene sceneID="oUW-qX-TcP">
             <objects>
                 <viewController id="urE-Pa-Rei" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="HE8-dm-tBT">
+                    <view key="view" contentMode="scaleToFill" id="HE8-dm-tBT" customClass="UITableView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
