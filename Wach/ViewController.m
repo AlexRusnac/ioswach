@@ -57,25 +57,3 @@
 @end
 
 
-/*@end
- 
- @implementation ViewController
- 
- 
- 
- - (void)viewDidLoad {
- [super viewDidLoad];
- //    alarmTableVIew.delegate = self;
- //    alarmTableVIew.dataSource = self;
- // Do any additional setup after loading the view, typically from a nib.
- 
- [alarmTableVIew registerNib:[UINib nibWithNibName:@"AlarmTableViewCell" bundle:nil] forCellReuseIdentifier:@"AlarmTableViewCell"];
- }
- 
- 
- - (void)didReceiveMemoryWarning {
- [super didReceiveMemoryWarning];
- // Dispose of any resources that can be recreated.
- 
- 
- @end*/
