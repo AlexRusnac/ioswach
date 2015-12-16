@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76B7936E1C21896000EDF542 /* addedtable.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B7936D1C21896000EDF542 /* addedtable.m */; };
 		CE7CE2691C2019320004587F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE2681C2019320004587F /* main.m */; };
 		CE7CE26C1C2019320004587F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE26B1C2019320004587F /* AppDelegate.m */; };
 		CE7CE26F1C2019320004587F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE26E1C2019320004587F /* ViewController.m */; };
@@ -17,7 +16,8 @@
 		CE7CE2821C2019330004587F /* WachTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE2811C2019330004587F /* WachTests.m */; };
 		CE7CE28D1C2019330004587F /* WachUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE28C1C2019330004587F /* WachUITests.m */; };
 		CE7CE29B1C201B410004587F /* addbuton2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE29A1C201B410004587F /* addbuton2.png */; };
-		CE7CE2AA1C2057090004587F /* addedtable.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE2A91C2057090004587F /* addedtable.xib */; };
+		CEB0F0971C2191F900E032DA /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0F0951C2191F900E032DA /* TableViewCell.m */; };
+		CEB0F0981C2191F900E032DA /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB0F0961C2191F900E032DA /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		76B7936C1C21896000EDF542 /* addedtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addedtable.h; sourceTree = "<group>"; };
-		76B7936D1C21896000EDF542 /* addedtable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addedtable.m; sourceTree = "<group>"; };
 		CE7CE2641C2019320004587F /* Wach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7CE2681C2019320004587F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE7CE26A1C2019320004587F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,7 +55,9 @@
 		CE7CE28C1C2019330004587F /* WachUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WachUITests.m; sourceTree = "<group>"; };
 		CE7CE28E1C2019330004587F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7CE29A1C201B410004587F /* addbuton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addbuton2.png; path = ../../../Downloads/addbuton2.png; sourceTree = "<group>"; };
-		CE7CE2A91C2057090004587F /* addedtable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addedtable.xib; sourceTree = "<group>"; };
+		CEB0F0941C2191F900E032DA /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		CEB0F0951C2191F900E032DA /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		CEB0F0961C2191F900E032DA /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +118,9 @@
 				CE7CE2751C2019320004587F /* LaunchScreen.storyboard */,
 				CE7CE2781C2019320004587F /* Info.plist */,
 				CE7CE2671C2019320004587F /* Supporting Files */,
-				CE7CE2A91C2057090004587F /* addedtable.xib */,
-				76B7936C1C21896000EDF542 /* addedtable.h */,
-				76B7936D1C21896000EDF542 /* addedtable.m */,
+				CEB0F0941C2191F900E032DA /* TableViewCell.h */,
+				CEB0F0951C2191F900E032DA /* TableViewCell.m */,
+				CEB0F0961C2191F900E032DA /* TableViewCell.xib */,
 			);
 			path = Wach;
 			sourceTree = "<group>";
@@ -255,8 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7CE2771C2019320004587F /* LaunchScreen.storyboard in Resources */,
+				CEB0F0981C2191F900E032DA /* TableViewCell.xib in Resources */,
 				CE7CE2741C2019320004587F /* Assets.xcassets in Resources */,
-				CE7CE2AA1C2057090004587F /* addedtable.xib in Resources */,
 				CE7CE2721C2019320004587F /* Main.storyboard in Resources */,
 				CE7CE29B1C201B410004587F /* addbuton2.png in Resources */,
 			);
@@ -284,8 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7CE26F1C2019320004587F /* ViewController.m in Sources */,
-				76B7936E1C21896000EDF542 /* addedtable.m in Sources */,
 				CE7CE26C1C2019320004587F /* AppDelegate.m in Sources */,
+				CEB0F0971C2191F900E032DA /* TableViewCell.m in Sources */,
 				CE7CE2691C2019320004587F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
