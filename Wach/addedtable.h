@@ -1,13 +1,15 @@
 //
-//  addedtable.m
+//  addedtable.h
 //  Wach
 //
 //  Created by Rusnac Alexandru on 12/16/15.
 //  Copyright © 2015 User. All rights reserved.
 //
 
-#import "addedtable.h"
+#import <UIKit/UIKit.h>
 
-@implementation addedtable
+@interface addedtable : UITableViewCell
+
+@property 
 
 @end
