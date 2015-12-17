@@ -85,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3A4A5E1C22EC4A00ED2F14 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0F0941C2191F900E032DA /* TableViewCell.h */,
+				CEB0F0951C2191F900E032DA /* TableViewCell.m */,
+				CEB0F0961C2191F900E032DA /* TableViewCell.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		CE3A4A5F1C22EC5E00ED2F14 /* alarm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = alarm;
+			sourceTree = "<group>";
+		};
 		CE7CE25B1C2019320004587F = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +125,8 @@
 		CE7CE2661C2019320004587F /* Wach */ = {
 			isa = PBXGroup;
 			children = (
+				CE3A4A5F1C22EC5E00ED2F14 /* alarm */,
+				CE3A4A5E1C22EC4A00ED2F14 /* cell */,
 				CE7CE29A1C201B410004587F /* addbuton2.png */,
 				CE7CE26A1C2019320004587F /* AppDelegate.h */,
 				CE7CE26B1C2019320004587F /* AppDelegate.m */,
@@ -118,9 +137,6 @@
 				CE7CE2751C2019320004587F /* LaunchScreen.storyboard */,
 				CE7CE2781C2019320004587F /* Info.plist */,
 				CE7CE2671C2019320004587F /* Supporting Files */,
-				CEB0F0941C2191F900E032DA /* TableViewCell.h */,
-				CEB0F0951C2191F900E032DA /* TableViewCell.m */,
-				CEB0F0961C2191F900E032DA /* TableViewCell.xib */,
 			);
 			path = Wach;
 			sourceTree = "<group>";
@@ -431,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = user.Wach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -442,6 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = user.Wach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

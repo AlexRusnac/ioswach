@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *addtable;
+@property (weak, nonatomic) IBOutlet UINavigationItem *editraw;
 
 @end
 
