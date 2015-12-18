@@ -32,7 +32,7 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="edit" id="SsI-Gl-aYl"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="zq0-EB-9NH">
                             <connections>
-                                <segue destination="urE-Pa-Rei" kind="modal" id="Mia-O3-fl8"/>
+                                <segue destination="Kgm-v1-Tm8" kind="modal" id="OGh-Qg-KjM"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -46,107 +46,62 @@
             </objects>
             <point key="canvasLocation" x="829" y="393"/>
         </scene>
-        <!--Data Source-->
-        <scene sceneID="oUW-qX-TcP">
+        <!--Title-->
+        <scene sceneID="cTp-tx-b6o">
             <objects>
-                <viewController id="urE-Pa-Rei" customClass="alarmViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="HE8-dm-tBT" customClass="UITableView">
+                <viewController id="Kgm-v1-Tm8" customClass="alarmViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Z2-GF-wdx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="pVE-hH-1rn">
-                                <rect key="frame" x="0.0" y="300" width="320" height="206"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <sections>
-                                    <tableViewSection headerTitle="Section-1" id="H0n-Xi-G3h">
-                                        <cells>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="pbK-M7-XDu">
-                                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pbK-M7-XDu" id="a3D-5B-b5v">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <animations/>
-                                                </tableViewCellContentView>
-                                                <animations/>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="as8-Ew-OjX">
-                                                <rect key="frame" x="0.0" y="72" width="320" height="44"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="as8-Ew-OjX" id="LYr-HC-uMZ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <animations/>
-                                                </tableViewCellContentView>
-                                                <animations/>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="bk1-10-p30">
-                                                <rect key="frame" x="0.0" y="116" width="320" height="44"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bk1-10-p30" id="LsI-m3-87V">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <animations/>
-                                                </tableViewCellContentView>
-                                                <animations/>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="5BS-8B-dSz">
-                                                <rect key="frame" x="0.0" y="160" width="320" height="44"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5BS-8B-dSz" id="IZ7-Fj-Tii">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <animations/>
-                                                </tableViewCellContentView>
-                                                <animations/>
-                                            </tableViewCell>
-                                        </cells>
-                                    </tableViewSection>
-                                </sections>
-                                <connections>
-                                    <outlet property="dataSource" destination="urE-Pa-Rei" id="rma-xb-frM"/>
-                                    <outlet property="delegate" destination="urE-Pa-Rei" id="DbG-d2-zO6"/>
-                                </connections>
-                            </tableView>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" id="69P-hH-Bel">
-                                <rect key="frame" x="0.0" y="64" width="320" height="219"/>
+                                <rect key="frame" x="0.0" y="48" width="320" height="219"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <date key="date" timeIntervalSinceReferenceDate="471880238.496288">
                                     <!--2015-12-15 13:50:38 +0000-->
                                 </date>
-                                <connections>
-                                    <action selector="timesetaction:" destination="urE-Pa-Rei" eventType="valueChanged" id="HXB-eu-24M"/>
-                                </connections>
                             </datePicker>
+                            <navigationBar contentMode="scaleToFill" id="dzv-Wy-d5K">
+                                <rect key="frame" x="-5" y="4" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Alarm" id="gL1-3N-s3o">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="GQG-b2-Nb8"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="pVE-hH-1rn">
+                                <rect key="frame" x="0.0" y="268" width="320" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="L8n-95-QgO">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="L8n-95-QgO" id="hij-Fx-820">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                            </tableView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <connections>
-                            <outlet property="dataSource" destination="urE-Pa-Rei" id="nXk-u2-fa2"/>
-                            <outlet property="delegate" destination="urE-Pa-Rei" id="0yH-RF-2cp"/>
-                        </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Alarm" id="oFu-Pd-WUu">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="sSP-yu-cP2"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="GQG-b2-Nb8">
-                            <connections>
-                                <action selector="sevealarm:" destination="urE-Pa-Rei" id="EgE-Na-vTe"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <connections>
-                        <outlet property="alarmsetsave" destination="GQG-b2-Nb8" id="tlR-pH-wJD"/>
-                        <outlet property="alatmtable" destination="pVE-hH-1rn" id="JGv-vH-fIb"/>
-                        <outlet property="timeset" destination="69P-hH-Bel" id="ZjE-pF-dKe"/>
-                    </connections>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Title" id="hAb-am-MfO"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="m7g-4a-Nrj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8yj-On-h4B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1264" y="393"/>
+            <point key="canvasLocation" x="1249" y="393"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dkA-ON-cs6">
