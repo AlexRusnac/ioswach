@@ -8,10 +8,13 @@
 
 #import "ViewController.h"
 #import "TableViewCell.h"
+#import "alarmViewController.h"
 
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>{
-    __weak IBOutlet UITableView *TableVC;
+    
+__weak IBOutlet UITableView *TableVC;
+    
 }
 
 @end

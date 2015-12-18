@@ -10,9 +10,14 @@
 
 @interface TableViewCell : UITableViewCell
 
-@property (strong, nonatomic) IBOutlet UILabel *hourset;
+@property (weak, nonatomic) IBOutlet UILabel *hourset;
 @property (weak, nonatomic) IBOutlet UILabel *wekday;
 @property (weak, nonatomic) IBOutlet UILabel *reapeat;
 @property (weak, nonatomic) IBOutlet UISwitch *onoffalarm;
+
+
+
+- (IBAction)onalarm:(id)sender;
+
 
 @end

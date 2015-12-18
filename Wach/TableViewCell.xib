@@ -38,6 +38,9 @@
                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t6j-HC-ICJ">
                         <rect key="frame" x="256" y="21" width="51" height="31"/>
                         <animations/>
+                        <connections>
+                            <action selector="onalarm:" destination="KGk-i7-Jjw" eventType="valueChanged" id="xev-Ur-oht"/>
+                        </connections>
                     </switch>
                 </subviews>
                 <animations/>
@@ -49,12 +52,8 @@
                 <outlet property="onoffalarm" destination="t6j-HC-ICJ" id="8i2-sU-Twf"/>
                 <outlet property="reapeat" destination="KyP-if-GDR" id="f2u-Kc-Q72"/>
                 <outlet property="wekday" destination="eqh-FE-iI0" id="RIB-qV-Y6R"/>
-                <outletCollection property="gestureRecognizers" destination="VxB-gf-4cC" appends="YES" id="NBo-e3-Rpl"/>
             </connections>
             <point key="canvasLocation" x="422" y="581.5"/>
         </tableViewCell>
-        <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="VxB-gf-4cC">
-            <rectEdge key="edges" left="YES"/>
-        </screenEdgePanGestureRecognizer>
     </objects>
 </document>
