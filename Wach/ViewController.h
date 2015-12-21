@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *addtable;
 @property (weak, nonatomic) IBOutlet UINavigationItem *editraw;
+@property (weak, nonatomic) IBOutlet UITableView *tableviewcells;
 
 @end
 

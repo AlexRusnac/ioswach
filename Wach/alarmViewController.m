@@ -14,12 +14,29 @@
 
 @end
 
-@implementation alarmViewController
+@implementation alarmViewController {
+    NSArray *alarmsetings;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    alarmsetings = [NSArray arrayWithObjects: @"Repeat", @"Sound", @"Snooze", @"Label", nil];
     // Do any additional setup after loading the view.
 }
+
+-(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return [alarmsetings count];
+}
+
+-(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *alarmtablecell = @"alarmcell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: alarmtablecell];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleDefault reuseIdentifier: alarmtablecell];
+    }
+    cell.textLabel.text = [alarmsetings objectAtIndex: indexPath.row ];
+    return cell;
+} 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

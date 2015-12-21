@@ -16,7 +16,6 @@
 		CE7CE2771C2019320004587F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE2751C2019320004587F /* LaunchScreen.storyboard */; };
 		CE7CE2821C2019330004587F /* WachTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE2811C2019330004587F /* WachTests.m */; };
 		CE7CE28D1C2019330004587F /* WachUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE28C1C2019330004587F /* WachUITests.m */; };
-		CE7CE29B1C201B410004587F /* addbuton2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE29A1C201B410004587F /* addbuton2.png */; };
 		CEB0F0971C2191F900E032DA /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0F0951C2191F900E032DA /* TableViewCell.m */; };
 		CEB0F0981C2191F900E032DA /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB0F0961C2191F900E032DA /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -57,7 +56,6 @@
 		CE7CE2881C2019330004587F /* WachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7CE28C1C2019330004587F /* WachUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WachUITests.m; sourceTree = "<group>"; };
 		CE7CE28E1C2019330004587F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE7CE29A1C201B410004587F /* addbuton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addbuton2.png; path = ../../../Downloads/addbuton2.png; sourceTree = "<group>"; };
 		CEB0F0941C2191F900E032DA /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		CEB0F0951C2191F900E032DA /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		CEB0F0961C2191F900E032DA /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
@@ -132,7 +130,6 @@
 			children = (
 				CE3A4A5F1C22EC5E00ED2F14 /* alarm */,
 				CE3A4A5E1C22EC4A00ED2F14 /* cell */,
-				CE7CE29A1C201B410004587F /* addbuton2.png */,
 				CE7CE26A1C2019320004587F /* AppDelegate.h */,
 				CE7CE26B1C2019320004587F /* AppDelegate.m */,
 				CE7CE26D1C2019320004587F /* ViewController.h */,
@@ -279,7 +276,6 @@
 				CEB0F0981C2191F900E032DA /* TableViewCell.xib in Resources */,
 				CE7CE2741C2019320004587F /* Assets.xcassets in Resources */,
 				CE7CE2721C2019320004587F /* Main.storyboard in Resources */,
-				CE7CE29B1C201B410004587F /* addbuton2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

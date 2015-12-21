@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface alarmViewController : ViewController
+@interface alarmViewController : ViewController< UITableViewDelegate , UITableViewDataSource>
 {
     UIDatePicker *timepiker;
     
