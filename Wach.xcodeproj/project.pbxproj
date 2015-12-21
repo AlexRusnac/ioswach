@@ -16,6 +16,13 @@
 		CE7CE2771C2019320004587F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE2751C2019320004587F /* LaunchScreen.storyboard */; };
 		CE7CE2821C2019330004587F /* WachTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE2811C2019330004587F /* WachTests.m */; };
 		CE7CE28D1C2019330004587F /* WachUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE28C1C2019330004587F /* WachUITests.m */; };
+		CE80815C1C27DE8E00A34260 /* repeatdayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80815B1C27DE8E00A34260 /* repeatdayTableViewController.m */; };
+		CE80815F1C27DEB000A34260 /* soundselect.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80815E1C27DEB000A34260 /* soundselect.m */; };
+		CE8081621C27DF2800A34260 /* comment.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8081611C27DF2800A34260 /* comment.m */; };
+		CE80816E1C282D6F00A34260 /* weekday.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80816D1C282D6F00A34260 /* weekday.m */; };
+		CE8081751C2842A600A34260 /* weekdays.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8081741C2842A600A34260 /* weekdays.m */; };
+		CE8081781C28432800A34260 /* soundpick.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8081771C28432800A34260 /* soundpick.m */; };
+		CE80817B1C284E8100A34260 /* alarmstart.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80817A1C284E8100A34260 /* alarmstart.m */; };
 		CEB0F0971C2191F900E032DA /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0F0951C2191F900E032DA /* TableViewCell.m */; };
 		CEB0F0981C2191F900E032DA /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB0F0961C2191F900E032DA /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -56,6 +63,20 @@
 		CE7CE2881C2019330004587F /* WachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7CE28C1C2019330004587F /* WachUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WachUITests.m; sourceTree = "<group>"; };
 		CE7CE28E1C2019330004587F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE80815A1C27DE8E00A34260 /* repeatdayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = repeatdayTableViewController.h; sourceTree = "<group>"; };
+		CE80815B1C27DE8E00A34260 /* repeatdayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = repeatdayTableViewController.m; sourceTree = "<group>"; };
+		CE80815D1C27DEB000A34260 /* soundselect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundselect.h; sourceTree = "<group>"; };
+		CE80815E1C27DEB000A34260 /* soundselect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = soundselect.m; sourceTree = "<group>"; };
+		CE8081601C27DF2800A34260 /* comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comment.h; sourceTree = "<group>"; };
+		CE8081611C27DF2800A34260 /* comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = comment.m; sourceTree = "<group>"; };
+		CE80816C1C282D6F00A34260 /* weekday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weekday.h; sourceTree = "<group>"; };
+		CE80816D1C282D6F00A34260 /* weekday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weekday.m; sourceTree = "<group>"; };
+		CE8081731C2842A600A34260 /* weekdays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weekdays.h; sourceTree = "<group>"; };
+		CE8081741C2842A600A34260 /* weekdays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weekdays.m; sourceTree = "<group>"; };
+		CE8081761C28432800A34260 /* soundpick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundpick.h; sourceTree = "<group>"; };
+		CE8081771C28432800A34260 /* soundpick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = soundpick.m; sourceTree = "<group>"; };
+		CE8081791C284E8100A34260 /* alarmstart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alarmstart.h; sourceTree = "<group>"; };
+		CE80817A1C284E8100A34260 /* alarmstart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alarmstart.m; sourceTree = "<group>"; };
 		CEB0F0941C2191F900E032DA /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		CEB0F0951C2191F900E032DA /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		CEB0F0961C2191F900E032DA /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
@@ -101,6 +122,8 @@
 			children = (
 				CE5443471C23F5690003857B /* alarmViewController.h */,
 				CE5443481C23F5690003857B /* alarmViewController.m */,
+				CE80816C1C282D6F00A34260 /* weekday.h */,
+				CE80816D1C282D6F00A34260 /* weekday.m */,
 			);
 			name = alarm;
 			sourceTree = "<group>";
@@ -128,6 +151,8 @@
 		CE7CE2661C2019320004587F /* Wach */ = {
 			isa = PBXGroup;
 			children = (
+				CE80816F1C28421300A34260 /* New Group1 */,
+				CE8081591C27DE5000A34260 /* New Group */,
 				CE3A4A5F1C22EC5E00ED2F14 /* alarm */,
 				CE3A4A5E1C22EC4A00ED2F14 /* cell */,
 				CE7CE26A1C2019320004587F /* AppDelegate.h */,
@@ -167,6 +192,32 @@
 				CE7CE28E1C2019330004587F /* Info.plist */,
 			);
 			path = WachUITests;
+			sourceTree = "<group>";
+		};
+		CE8081591C27DE5000A34260 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				CE80815A1C27DE8E00A34260 /* repeatdayTableViewController.h */,
+				CE80815B1C27DE8E00A34260 /* repeatdayTableViewController.m */,
+				CE80815D1C27DEB000A34260 /* soundselect.h */,
+				CE80815E1C27DEB000A34260 /* soundselect.m */,
+				CE8081601C27DF2800A34260 /* comment.h */,
+				CE8081611C27DF2800A34260 /* comment.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		CE80816F1C28421300A34260 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				CE8081731C2842A600A34260 /* weekdays.h */,
+				CE8081741C2842A600A34260 /* weekdays.m */,
+				CE8081761C28432800A34260 /* soundpick.h */,
+				CE8081771C28432800A34260 /* soundpick.m */,
+				CE8081791C284E8100A34260 /* alarmstart.h */,
+				CE80817A1C284E8100A34260 /* alarmstart.m */,
+			);
+			name = "New Group1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,10 +352,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7CE26F1C2019320004587F /* ViewController.m in Sources */,
+				CE80815C1C27DE8E00A34260 /* repeatdayTableViewController.m in Sources */,
+				CE8081781C28432800A34260 /* soundpick.m in Sources */,
 				CE7CE26C1C2019320004587F /* AppDelegate.m in Sources */,
 				CEB0F0971C2191F900E032DA /* TableViewCell.m in Sources */,
 				CE7CE2691C2019320004587F /* main.m in Sources */,
 				CE5443491C23F5690003857B /* alarmViewController.m in Sources */,
+				CE80815F1C27DEB000A34260 /* soundselect.m in Sources */,
+				CE8081751C2842A600A34260 /* weekdays.m in Sources */,
+				CE80816E1C282D6F00A34260 /* weekday.m in Sources */,
+				CE80817B1C284E8100A34260 /* alarmstart.m in Sources */,
+				CE8081621C27DF2800A34260 /* comment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
