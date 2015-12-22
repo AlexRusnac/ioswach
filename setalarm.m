@@ -8,6 +8,7 @@
 
 #import "setalarm.h"
 #import "TableViewCell.h"
+#import "dataSender.h"
 
 @interface setalarm ()
 
@@ -31,12 +32,8 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
--(id)init{
-    if((self =[super init])){
-        self.itemId = [TableViewCell saveTimeAlarm];
-    }
-    return self;
-}
+
+
 
 - (IBAction)setalarm:(id)sender {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
@@ -45,7 +42,7 @@
     
         NSString *formatedDate = [dateFormatter stringFromDate:self.timeset.date];
     
-        self.getS.text =formatedDate;
+        [dataSender sharedData].glHourSet= formatedDate;
 }
 
 - (IBAction)savebutton:(id)sender {

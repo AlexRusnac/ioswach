@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE563C9B1C2932FA00947B07 /* setalarm.m in Sources */ = {isa = PBXBuildFile; fileRef = CE563C9A1C2932FA00947B07 /* setalarm.m */; };
+		CE563CA51C29505D00947B07 /* dataSender.m in Sources */ = {isa = PBXBuildFile; fileRef = CE563CA41C29505D00947B07 /* dataSender.m */; };
 		CE7CE2691C2019320004587F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE2681C2019320004587F /* main.m */; };
 		CE7CE26C1C2019320004587F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE26B1C2019320004587F /* AppDelegate.m */; };
 		CE7CE26F1C2019320004587F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE26E1C2019320004587F /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		CE563C991C2932FA00947B07 /* setalarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = setalarm.h; path = ../setalarm.h; sourceTree = "<group>"; };
 		CE563C9A1C2932FA00947B07 /* setalarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = setalarm.m; path = ../setalarm.m; sourceTree = "<group>"; };
+		CE563CA31C29505D00947B07 /* dataSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataSender.h; sourceTree = "<group>"; };
+		CE563CA41C29505D00947B07 /* dataSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataSender.m; sourceTree = "<group>"; };
 		CE7CE2641C2019320004587F /* Wach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7CE2681C2019320004587F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE7CE26A1C2019320004587F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				CEB0F0941C2191F900E032DA /* TableViewCell.h */,
 				CEB0F0951C2191F900E032DA /* TableViewCell.m */,
 				CEB0F0961C2191F900E032DA /* TableViewCell.xib */,
+				CE563CA31C29505D00947B07 /* dataSender.h */,
+				CE563CA41C29505D00947B07 /* dataSender.m */,
 			);
 			name = cell;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 				CE7CE26C1C2019320004587F /* AppDelegate.m in Sources */,
 				CEB0F0971C2191F900E032DA /* TableViewCell.m in Sources */,
 				CE563C9B1C2932FA00947B07 /* setalarm.m in Sources */,
+				CE563CA51C29505D00947B07 /* dataSender.m in Sources */,
 				CE7CE2691C2019320004587F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

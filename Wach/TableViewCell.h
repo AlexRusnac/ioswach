@@ -17,7 +17,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *reapeat;
 @property (weak, nonatomic) IBOutlet UISwitch *onoffalarm;
 
-+(NSString) saveTimeAlarm;
+
 
 - (IBAction)onalarm:(id)sender;
 
