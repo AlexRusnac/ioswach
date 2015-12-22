@@ -23,7 +23,13 @@
     // Configure the view for the selected state
 }
 
-
++(NSString *)saveTimeAlarm{
+   NSUserDefaults *userDefaults =[NSUserDefaults standardUserDefaults];
+    NSString *itemId = [userDefaults stringForKey:@"setalarm"];
+    [userDefaults setString:itemId +1 forKey:@"setalarm"];
+    [userDefaults synchronize];
+    return itemId;
+}
 
 
 

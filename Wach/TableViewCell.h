@@ -8,14 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TableViewCell : UITableViewCell
+@interface TableViewCell : UITableViewCell{
+    
+}
 
-@property (weak, nonatomic) IBOutlet UILabel *hourset;
+@property (weak, nonatomic) IBOutlet UILabel *hourSet;
 @property (weak, nonatomic) IBOutlet UILabel *wekday;
 @property (weak, nonatomic) IBOutlet UILabel *reapeat;
 @property (weak, nonatomic) IBOutlet UISwitch *onoffalarm;
 
-
++(NSString) saveTimeAlarm;
 
 - (IBAction)onalarm:(id)sender;
 

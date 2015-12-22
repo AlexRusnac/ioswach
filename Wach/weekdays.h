@@ -10,6 +10,8 @@
 
 @interface weekdays : NSObject <NSCoding>
 
+@property(weak, nonatomic) NSDateComponents *weekDays;
+@property(weak, nonatomic) NSMutableArray *weekDaysArray;
 
 
 @end
