@@ -7,17 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "dataSender.h"
 
 @interface setalarm : UITableViewController{
    
 }
 
 @property (weak, nonatomic) IBOutlet UIDatePicker *timeset;
+@property (strong, nonatomic) NSMutableArray *sendHourStings;
+@property (weak, nonatomic) NSString *hourSet;
 
-
-- (IBAction)setAlarm:(id)sender;
+- (IBAction)setiAlarm:(id)sender;
 
 - (IBAction)saveButton:(id)sender;
+
+
+
+//-(id)initWithTitle: (NSString *)sendHour;
+-(void)alarmSetingsSend:(NSString *)hourSet;
 
 
 @end

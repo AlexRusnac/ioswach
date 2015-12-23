@@ -32,6 +32,7 @@ __weak IBOutlet UITableView *TableVC;
     [TableVC registerNib:[UINib nibWithNibName:@"TableViewCell" bundle:nil ]
         forCellReuseIdentifier:@"TableViewCell"];
     
+//    NSMutableArray *
     
     // Do any additional setup after loading the view, typically from a nib.
     
@@ -45,21 +46,34 @@ __weak IBOutlet UITableView *TableVC;
     return 1;
 }
 
+
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 1;
+    return [[dataSender sharedData].alarmList count];
 }
 
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+-(TableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *Tablevc = @"TableViewCell";
     TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:Tablevc];
     if (cell==nil) {
-        NSArray *nibObject = [[NSBundle mainBundle] loadNibNamed:@"TableViewCell" owner:nil options:nil];
-        for (id curentObject in nibObject) {
-            if ([curentObject isKindOfClass:[TableViewCell class]]) {
-                cell = (TableViewCell *)curentObject;
-            }
+        NSMutableArray *foo =[[dataSender sharedData].alarmList objectAtIndex:indexPath.row];
+        cell.hourSet = foo[0];
+//        NSArray *nibObject = [[NSBundle mainBundle] loadNibNamed:@"TableViewCell" owner:nil options:nil];
+//        for (id curentObject in nibObject) {
+//            if ([curentObject isKindOfClass:[TableViewCell class]]) {
+//                cell = (TableViewCell *)curentObject;
+//            }
         }
-    }
+        
+//    NSDictionary *foo = [[dataSender sharedData].alarmList objectAtIndex:indexPath.row];
+//        
+//        TableViewCell *bar = [tableView dequeueReusableCellWithIdentifier:@"myID"];
+//        bar.hourSet.text = foo[@"hourset"];
+//        bar.hourSet.text = foo[0];
+//        ......
+//        return bar;
+        
+    //}
     return cell;
     
     
@@ -77,6 +91,9 @@ __weak IBOutlet UITableView *TableVC;
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+}
+- (IBAction)createNewAlarm:(id)sender {
     
 }
 @end

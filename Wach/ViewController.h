@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "dataSender.h"
 
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *addtable;
 @property (weak, nonatomic) IBOutlet UINavigationItem *editraw;
 @property (weak, nonatomic) IBOutlet UITableView *tableviewcells;
+- (IBAction)createNewAlarm:(id)sender;
 
 @end

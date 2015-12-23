@@ -49,9 +49,13 @@
             <gestureRecognizers/>
             <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
             <connections>
+                <outlet property="hourSet" destination="6c5-Uy-ayb" id="yuI-7W-77e"/>
                 <outlet property="hourset" destination="6c5-Uy-ayb" id="MBj-Iw-QZq"/>
+                <outlet property="onoffAlarm" destination="t6j-HC-ICJ" id="zuW-hu-3xC"/>
                 <outlet property="onoffalarm" destination="t6j-HC-ICJ" id="8i2-sU-Twf"/>
                 <outlet property="reapeat" destination="KyP-if-GDR" id="f2u-Kc-Q72"/>
+                <outlet property="reapeatAlarm" destination="KyP-if-GDR" id="oEx-5c-Dk7"/>
+                <outlet property="weekDay" destination="eqh-FE-iI0" id="Cz7-ur-fIP"/>
                 <outlet property="wekday" destination="eqh-FE-iI0" id="RIB-qV-Y6R"/>
             </connections>
             <point key="canvasLocation" x="339.5" y="279.5"/>

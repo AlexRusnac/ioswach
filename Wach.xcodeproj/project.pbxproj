@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE563C9B1C2932FA00947B07 /* setalarm.m in Sources */ = {isa = PBXBuildFile; fileRef = CE563C9A1C2932FA00947B07 /* setalarm.m */; };
 		CE563CA51C29505D00947B07 /* dataSender.m in Sources */ = {isa = PBXBuildFile; fileRef = CE563CA41C29505D00947B07 /* dataSender.m */; };
+		CE563CAC1C2AA72500947B07 /* alarmproprietes.m in Sources */ = {isa = PBXBuildFile; fileRef = CE563CAB1C2AA72500947B07 /* alarmproprietes.m */; };
 		CE7CE2691C2019320004587F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE2681C2019320004587F /* main.m */; };
 		CE7CE26C1C2019320004587F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE26B1C2019320004587F /* AppDelegate.m */; };
 		CE7CE26F1C2019320004587F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE26E1C2019320004587F /* ViewController.m */; };
@@ -43,6 +44,8 @@
 		CE563C9A1C2932FA00947B07 /* setalarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = setalarm.m; path = ../setalarm.m; sourceTree = "<group>"; };
 		CE563CA31C29505D00947B07 /* dataSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataSender.h; sourceTree = "<group>"; };
 		CE563CA41C29505D00947B07 /* dataSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataSender.m; sourceTree = "<group>"; };
+		CE563CAA1C2AA72500947B07 /* alarmproprietes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alarmproprietes.h; sourceTree = "<group>"; };
+		CE563CAB1C2AA72500947B07 /* alarmproprietes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alarmproprietes.m; sourceTree = "<group>"; };
 		CE7CE2641C2019320004587F /* Wach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7CE2681C2019320004587F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE7CE26A1C2019320004587F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,15 @@
 			name = cell;
 			sourceTree = "<group>";
 		};
+		CE563CA61C2AA68400947B07 /* alarm */ = {
+			isa = PBXGroup;
+			children = (
+				CE563CAA1C2AA72500947B07 /* alarmproprietes.h */,
+				CE563CAB1C2AA72500947B07 /* alarmproprietes.m */,
+			);
+			name = alarm;
+			sourceTree = "<group>";
+		};
 		CE7CE25B1C2019320004587F = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +138,7 @@
 		CE7CE2661C2019320004587F /* Wach */ = {
 			isa = PBXGroup;
 			children = (
+				CE563CA61C2AA68400947B07 /* alarm */,
 				CE3A4A5E1C22EC4A00ED2F14 /* cell */,
 				CE7CE26A1C2019320004587F /* AppDelegate.h */,
 				CE7CE26B1C2019320004587F /* AppDelegate.m */,
@@ -303,6 +316,7 @@
 				CE563C9B1C2932FA00947B07 /* setalarm.m in Sources */,
 				CE563CA51C29505D00947B07 /* dataSender.m in Sources */,
 				CE7CE2691C2019320004587F /* main.m in Sources */,
+				CE563CAC1C2AA72500947B07 /* alarmproprietes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

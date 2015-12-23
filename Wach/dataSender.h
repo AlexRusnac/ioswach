@@ -9,16 +9,22 @@
 #import <Foundation/Foundation.h>
 
 @interface dataSender : NSObject{
-    NSString *glHourSet;
+    
     
 }
 
-@property(nonatomic, strong) NSString *glHourSet;
+//@property(nonatomic, strong) NSString *glHourSet;
+//@property(nonatomic, strong) NSArray *getSetAlatm;
+
+@property (nonatomic, strong) NSMutableArray *alarmList;
+
+
 
 +(dataSender *)sharedData;
 
--(void)save;
--(void)edit;
-
+//-(void)saveAlarm;
+//-(void)edit;
+//-(NSArray *) getSetAlarm;
+-(void)addNewAlarm:(NSString *)alarm;
 
 @end

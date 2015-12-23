@@ -1,14 +1,6 @@
-//
-//  setalarm.m
-//  Wach
-//
-//  Created by User on 12/22/15.
-//  Copyright © 2015 User. All rights reserved.
-//
-
 #import "setalarm.h"
-#import "TableViewCell.h"
-#import "dataSender.h"
+
+
 
 @interface setalarm ()
 
@@ -24,29 +16,40 @@
     [super viewDidLoad];
 
     
+    _sendHourStings = [[NSMutableArray alloc] init];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 
 
+-(void)alarmSetingsSend:(NSString *)hourSet{
+    [self.sendHourStings addObject:hourSet];
+    
+    
+}
 
-- (IBAction)setalarm:(id)sender {
+- (IBAction)setiAlarm:(id)sender {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     
         [dateFormatter setDateFormat:@"HH:mm"];
     
         NSString *formatedDate = [dateFormatter stringFromDate:self.timeset.date];
     
-        [dataSender sharedData].glHourSet= formatedDate;
+        self.hourSet= formatedDate;
 }
 
 - (IBAction)savebutton:(id)sender {
+    
+    [[dataSender sharedData] addNewAlarm:_hourSet];
 
+    [self.navigationController dismissViewControllerAnimated:YES completion:^{
+        
+    }];
     
 }
 - (void)didReceiveMemoryWarning {
@@ -57,35 +60,8 @@
 
 
 
-#pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
-}
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
-}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
-}
-*/
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
 
 /*
 // Override to support editing the table view.
@@ -124,3 +100,4 @@
 */
 
 @end
+

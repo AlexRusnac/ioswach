@@ -12,12 +12,12 @@
     
 }
 
-@property (weak, nonatomic) IBOutlet UILabel *hourSet;
-@property (weak, nonatomic) IBOutlet UILabel *wekday;
-@property (weak, nonatomic) IBOutlet UILabel *reapeat;
-@property (weak, nonatomic) IBOutlet UISwitch *onoffalarm;
+@property (weak, nonatomic) IBOutlet NSString *hourSet;
+@property (weak, nonatomic) IBOutlet NSString *weekDay;
+@property (weak, nonatomic) IBOutlet NSString *reapeatAlarm;
+@property (weak, nonatomic) IBOutlet UISwitch *onoffAlarm;
 
-
+@property (strong, nonatomic) NSMutableArray *setCell;
 
 - (IBAction)onalarm:(id)sender;
 
